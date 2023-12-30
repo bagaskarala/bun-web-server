@@ -1,16 +1,3 @@
 {
-    "version": 2,
-    "name": "bun-web-server",
-    "builds": [
-        {
-            "src": "./index.ts",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
+    "buildCommand": "bun run build"
 }

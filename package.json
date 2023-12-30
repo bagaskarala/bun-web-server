@@ -4,11 +4,13 @@
   "type": "module",
   "scripts": {
     "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts"
+    "dev": "bun --watch run index.ts",
+    "build": "bun-vercel index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/figlet": "^1.5.8"
+    "@types/figlet": "^1.5.8",
+    "bun-vercel": "^1.0.0-alpha.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
